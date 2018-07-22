@@ -1,0 +1,119 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+	</head>
+	
+	<body>
+		<h1> Customer Details</h1>
+		<hr>
+		<form method="post" action="handle_addcustomer.php">
+			<div class="form-row">
+				<label for = "inputName" class = "col-md-2 col-form-label">Company Name:</label>
+				<div class="col">
+					<input type="text" class="form-control" name = "companyName" placeholder = "ABC.ltd">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for="inputAddress1" class = "col-md-2 col-form-label">Address Line 1:</label>
+				<div class = "col">
+					<input type="text" class="form-control" name="inputAddress" placeholder="1234 Main St">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for="inputAddress2" class = "col-md-2 col-form-label">Address Line 2:</label>
+				<div class = "col">
+					<input type="text" class="form-control" name="inputAddress2" placeholder="Apartment, studio, or floor">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for = "inputCity" class="col-md-2 col-form-label">City:</label>
+				<div class = "col">
+				  <input type="text" class="form-control" name="inputCity">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for = "inputCountry" class="col-md-2 col-form-label">Country:</label>
+				<div class = "col">
+				  <input type="text" class="form-control" name="inputCountry" placeholder = "Choose the country where the business is incorporated.">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for = "inputState" class="col-md-2 col-form-label">Province/State:</label>
+				<div class = "col">
+				  <input type="text" class="form-control" name="inputState">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for = "inputZip" class="col-md-2 col-form-label">Postal/Zip Code:</label>
+				<div class = "col">
+				  <input type="text" class="form-control" name="inputZip">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for = "inputPhone" class="col-md-2 col-form-label">Phone:</label>
+				<div class = "col">
+				  <input type="text" class="form-control" name="inputPhone">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for = "inputEmail" class="col-md-2 col-form-label">Email:</label>
+				<div class = "col">
+				  <input type="text" class="form-control" name="inputEmail">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for = "inputFax" class="col-md-2 col-form-label">Fax:</label>
+				<div class = "col">
+				  <input type="text" class="form-control" name="inputFax">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for = "inputMobile" class="col-md-2 col-form-label">Mobile:</label>
+				<div class = "col">
+				  <input type="text" class="form-control" name="inputMobile">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for = "inputTollfree" class="col-md-2 col-form-label">Toll Free:</label>
+				<div class = "col">
+				  <input type="text" class="form-control" name="inputTollfree">
+				</div>
+			</div>
+			<br>
+			<div class="form-row">
+				<label for = "inputWebsite" class="col-md-2 col-form-label">Website:</label>
+				<div class = "col">
+				  <input type="text" class="form-control" name="inputWebsite" placeholder = "ABC.com">
+				</div>
+			</div>
+			<br>
+
+			<div class="float-right">
+				<button type="submit" name = "submit" class="btn btn-primary">Create</button>
+			</div>
+			
+			<br><br><br>
+		</form>
+	</body>
+</html>
+			
+		
+		
